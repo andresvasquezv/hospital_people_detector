@@ -1,0 +1,11 @@
+float32[] boxes
+sensor_msgs/Image img_rgb
+sensor_msgs/Image img_jet
+float32 fx
+float32 fy
+float32 cx
+float32 cy
+float32 coeff_a
+float32 coeff_b
+float32 coeff_c
+float32 coeff_d

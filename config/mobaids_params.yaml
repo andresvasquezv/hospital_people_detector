@@ -1,0 +1,53 @@
+#GPU ID used by Fast R-CNN classifier
+ID_GPU: 0
+
+#Ground plane can be computed from TF or from point cloud
+ground_plane_source: pcl #'pcl' or 'tf'
+
+#Classifier uses RGB or DepthJet images
+classifier_type: DepthJet #'RGB' or 'DepthJet'
+
+#Minimum score to accept a detection as valid
+min_score: 0.9 
+
+#Consider tracks with at least "min_track_age"
+# the age of a track increases by 1 anytime a detection is associated to it 
+min_track_age: 2
+
+#Dont creat new track if distance between this new 
+# track and any other track is less than min_saparation
+min_separation: 0.0  
+
+#Tracks will be removed if the uncertainty of the position is greater than "uncertainty_tolerance"
+uncertainty_tolerance: 3.0 
+
+#Tracks will be removed if HMM(background)>background_tolerance
+background_tolerance: 0.8 
+
+#No association is done if Mahalanobis distance between track-observation bigger than:
+#10.597 -> 0.995      9.21 -> 0.99      5.992 -> 0.95
+validation_gate: 5.992 #"chi square" for Mahalanobis distance
+
+#Select which set of bounding boxes sould be drawn on image
+draw_bbox_proposals: false
+draw_bbox_detections: true
+draw_bbox_tracks: false
+
+#class labels
+class_labels: ['__background__', 'pedest.', 'wheelch.', 'push_whe.','crutches','walker']
+
+#Non-maximun supression threshold
+NMS_THRESH: 0.3 
+
+#Kalman Filter parameters
+KALFIL:
+  #Process noise
+  vel_noise: 1.2 #m/sec
+
+  #Measurement noises (used also for initial covariance matrix)
+  alpha_x: 0.4 #0.2 m (left-right axis in Camera FRAME)
+  alpha_y: 0 #m (top-down axis in Camera FRAME) 
+  alpha_z: 0.8 #0.4 m (depth axis in Camera FRAME)
+
+  #Velocity error for initial covariance matrix
+  alpha_v: 0.8 #m/s
