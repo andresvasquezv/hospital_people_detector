@@ -33,13 +33,13 @@
   <meta property="fb:app_id" content="1401488693436528">
 
     
-    <meta content="https://avatars1.githubusercontent.com/u/16100247?s=400&amp;v=4" property="og:image" /><meta content="GitHub" property="og:site_name" /><meta content="object" property="og:type" /><meta content="andresvasquezv/hospital_people_detector" property="og:title" /><meta content="https://github.com/andresvasquezv/hospital_people_detector" property="og:url" /><meta content="Contribute to hospital_people_detector development by creating an account on GitHub." property="og:description" />
+    <meta content="https://avatars2.githubusercontent.com/u/7736948?s=400&amp;v=4" property="og:image" /><meta content="GitHub" property="og:site_name" /><meta content="object" property="og:type" /><meta content="andresvasquezv/hospital_people_detector" property="og:title" /><meta content="https://github.com/andresvasquezv/hospital_people_detector" property="og:url" /><meta content="The hospital_people_detector package provides a move_base global planner plugin for a time-bounded A* lattice planner. The planner is designed to plan time dependent, dynamically feasible navigation paths f..." property="og:description" />
 
   <link rel="assets" href="https://assets-cdn.github.com/">
-  <link rel="web-socket" href="wss://live.github.com/_sockets/VjI6MjIzNjQ4OTM1OjM3YWFlMDRlOWM3NTZmNzM5YThjMjU3ZTI4NGNhNzUzYzNiY2I4NjhlY2Q0OTJiNGY0NDE0NjNhYzk1NmVmMDk=--5ad324282a02d739258bfd79b9ec4f7bff7ffb1b">
+  <link rel="web-socket" href="wss://live.github.com/_sockets/VjI6MjIzNjQ4OTM1OjNjYmYxZTNiYTE4YzRjZGE5MDQxMWQ2NTI4NjUzZDI5NDg0ZGQ5MmUxMTZmZjNhYTQxMjMxNTU2YjY2NjY3ZDY=--166d05ed466bb6f37eea91ceb38f209f567c88f4">
   <meta name="pjax-timeout" content="1000">
   <link rel="sudo-modal" href="/sessions/sudo_modal">
-  <meta name="request-id" content="DA04:23E7:D87E59:16C0BC7:5A11D75A" data-pjax-transient>
+  <meta name="request-id" content="E8AE:23EA:C6A792:187B5BB:5A12091E" data-pjax-transient>
   
 
   <meta name="selected-link" value="repo_source" data-pjax-transient>
@@ -48,7 +48,7 @@
 <meta name="google-site-verification" content="ZzhVyEFwb7w3e0-uOTltm8Jsck2F5StVihD0exw2fsA">
     <meta name="google-analytics" content="UA-3769691-2">
 
-<meta content="collector.githubapp.com" name="octolytics-host" /><meta content="github" name="octolytics-app-id" /><meta content="https://collector.githubapp.com/github-external/browser_event" name="octolytics-event-url" /><meta content="DA04:23E7:D87E59:16C0BC7:5A11D75A" name="octolytics-dimension-request_id" /><meta content="iad" name="octolytics-dimension-region_edge" /><meta content="iad" name="octolytics-dimension-region_render" /><meta content="16100247" name="octolytics-actor-id" /><meta content="andresvasquezv" name="octolytics-actor-login" /><meta content="33cd7c98ad39ddc499feb48089f09f6b99100ad94b2c2bde6ac5ea7d90e7f097" name="octolytics-actor-hash" />
+<meta content="collector.githubapp.com" name="octolytics-host" /><meta content="github" name="octolytics-app-id" /><meta content="https://collector.githubapp.com/github-external/browser_event" name="octolytics-event-url" /><meta content="E8AE:23EA:C6A792:187B5BB:5A12091E" name="octolytics-dimension-request_id" /><meta content="iad" name="octolytics-dimension-region_edge" /><meta content="iad" name="octolytics-dimension-region_render" /><meta content="16100247" name="octolytics-actor-id" /><meta content="andresvasquezv" name="octolytics-actor-login" /><meta content="33cd7c98ad39ddc499feb48089f09f6b99100ad94b2c2bde6ac5ea7d90e7f097" name="octolytics-actor-hash" />
 <meta content="/&lt;user-name&gt;/&lt;repo-name&gt;/blob/show" data-pjax-transient="true" name="analytics-location" />
 
 
@@ -63,7 +63,7 @@
   <meta name="user-login" content="andresvasquezv">
 
       <meta name="expected-hostname" content="github.com">
-    <meta name="js-proxy-site-detection-payload" content="YTQzMmExMGY5Y2FkYmE1OGUxOGFjNWE1MThlZTlmN2JmYzQ3NWE1ZDk0MDM2ZDk3NTY3NWY4NWE5MzZiNzhjNnx7InJlbW90ZV9hZGRyZXNzIjoiODkuMTIuMjE5LjQ4IiwicmVxdWVzdF9pZCI6IkRBMDQ6MjNFNzpEODdFNTk6MTZDMEJDNzo1QTExRDc1QSIsInRpbWVzdGFtcCI6MTUxMTExODY4MiwiaG9zdCI6ImdpdGh1Yi5jb20ifQ==">
+    <meta name="js-proxy-site-detection-payload" content="OGRmMzYzMjFmYTMxNDVmOTAxMTk4MjdkMDg4MWYyYzMxYTMxNzNjMWIxZDEzNDhlNjE1NjY2NDk0OGYxOGFhOHx7InJlbW90ZV9hZGRyZXNzIjoiODkuMTIuMjE5LjQ4IiwicmVxdWVzdF9pZCI6IkU4QUU6MjNFQTpDNkE3OTI6MTg3QjVCQjo1QTEyMDkxRSIsInRpbWVzdGFtcCI6MTUxMTEzMTQyOCwiaG9zdCI6ImdpdGh1Yi5jb20ifQ==">
 
     <meta name="enabled-features" content="UNIVERSE_BANNER,FREE_TRIALS">
 
@@ -74,10 +74,10 @@
 
       <link href="https://github.com/andresvasquezv/hospital_people_detector/commits/master.atom" rel="alternate" title="Recent Commits to hospital_people_detector:master" type="application/atom+xml">
 
-  <meta name="description" content="Contribute to hospital_people_detector development by creating an account on GitHub.">
+  <meta name="description" content="The hospital_people_detector package provides a move_base global planner plugin for a time-bounded A* lattice planner. The planner is designed to plan time dependent, dynamically feasible navigation paths for robots with differential drive constraints. It uses a dynamic cost map which is based on the ROS costmap representation from the costmap_2d package.">
   <meta name="go-import" content="github.com/andresvasquezv/hospital_people_detector git https://github.com/andresvasquezv/hospital_people_detector.git">
 
-  <meta content="16100247" name="octolytics-dimension-user_id" /><meta content="andresvasquezv" name="octolytics-dimension-user_login" /><meta content="111317153" name="octolytics-dimension-repository_id" /><meta content="andresvasquezv/hospital_people_detector" name="octolytics-dimension-repository_nwo" /><meta content="true" name="octolytics-dimension-repository_public" /><meta content="false" name="octolytics-dimension-repository_is_fork" /><meta content="111317153" name="octolytics-dimension-repository_network_root_id" /><meta content="andresvasquezv/hospital_people_detector" name="octolytics-dimension-repository_network_root_nwo" /><meta content="true" name="octolytics-dimension-repository_explore_github_marketplace_ci_cta_shown" />
+  <meta content="7736948" name="octolytics-dimension-user_id" /><meta content="andresvasquezv" name="octolytics-dimension-user_login" /><meta content="38316337" name="octolytics-dimension-repository_id" /><meta content="mandresvasquezv/hospital_people_detector" name="octolytics-dimension-repository_nwo" /><meta content="true" name="octolytics-dimension-repository_public" /><meta content="false" name="octolytics-dimension-repository_is_fork" /><meta content="38316337" name="octolytics-dimension-repository_network_root_id" /><meta content="andresvasquezv/hospital_people_detector" name="octolytics-dimension-repository_network_root_nwo" /><meta content="false" name="octolytics-dimension-repository_explore_github_marketplace_ci_cta_shown" />
 
 
     <link rel="canonical" href="https://github.com/andresvasquezv/hospital_people_detector/blob/master/README.md" data-pjax-transient>
@@ -208,9 +208,9 @@
 
   <div class="dropdown-divider"></div>
   <div class="dropdown-header">
-    <span title="andresvasquezv/hospital_people_detector">This repository</span>
+    <span title="marinaKollmitz/lattice_planner">This repository</span>
   </div>
-    <a class="dropdown-item" href="/andresvasquezv/hospital_people_detector/issues/new" data-ga-click="Header, create new issue">
+    <a class="dropdown-item" href="/marinaKollmitz/lattice_planner/issues/new" data-ga-click="Header, create new issue">
       New issue
     </a>
 
@@ -253,7 +253,7 @@
           Settings
         </a></li>
 
-        <li><!-- '"` --><!-- </textarea></xmp> --></option></form><form accept-charset="UTF-8" action="/logout" class="logout-form" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="tlLrJ9JLBBmwlgJQzHmkV5g1nTsu1U056aikpI1OWRJaIOe0KPWELX3qi07wu0GnNE3AWl+ce/4CG5QPvQoTPA==" /></div>
+        <li><!-- '"` --><!-- </textarea></xmp> --></option></form><form accept-charset="UTF-8" action="/logout" class="logout-form" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="sAn4eqLPlRVAO+M1AeTnrx1ARUcR5YTHaC07tfcyH4Jce/TpWHEVIY1Hais9JgJfsTgYJmCssgCDngsex3ZVrA==" /></div>
           <button type="submit" class="dropdown-item dropdown-signout" data-ga-click="Header, sign out, icon:logout">
             Sign out
           </button>
@@ -264,7 +264,7 @@
 </ul>
 
 
-        <!-- '"` --><!-- </textarea></xmp> --></option></form><form accept-charset="UTF-8" action="/logout" class="sr-only right-0" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="QwS8NwthPjWCyvwHT2GXQvx9WAOo4BC1vnCmQlcl/UKvdrCk8d++AU+2dRlzo3KyUAUFYtmpJnJVw5bpZ2G3bA==" /></div>
+        <!-- '"` --><!-- </textarea></xmp> --></option></form><form accept-charset="UTF-8" action="/logout" class="sr-only right-0" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="Z1+aEJfqjamZVlVvu1KA61+cZjFwUi521j9e5A3xTviLLZaDbVQNnVQq3HGHkGUb8+Q7UAEbGLE9jG5PPbUE1g==" /></div>
           <button type="submit" class="dropdown-item dropdown-signout" data-ga-click="Header, sign out, icon:logout">
             Sign out
           </button>
@@ -299,10 +299,10 @@
 
         <ul class="pagehead-actions">
   <li>
-        <!-- '"` --><!-- </textarea></xmp> --></option></form><form accept-charset="UTF-8" action="/notifications/subscribe" class="js-social-container" data-autosubmit="true" data-remote="true" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="XWeTDDXOJienpOz8RfPDW6f7Ix66CJHiUPlE4+ps1MKKnX8dT0b8LtI6/3b9RxIPoHYLsykG1e6RELjz/u4vMQ==" /></div>      <input class="form-control" id="repository_id" name="repository_id" type="hidden" value="111317153" />
+        <!-- '"` --><!-- </textarea></xmp> --></option></form><form accept-charset="UTF-8" action="/notifications/subscribe" class="js-social-container" data-autosubmit="true" data-remote="true" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="vVyquEZhx33lZHfrO3ADzsJtsmhnNZC/0SxbtqKcEIpqpkapPOkddJD6ZGGDxNKaxeCaxfQ71LMQxaemth7reQ==" /></div>      <input class="form-control" id="repository_id" name="repository_id" type="hidden" value="38316337" />
 
         <div class="select-menu js-menu-container js-select-menu">
-          <a href="/andresvasquezv/hospital_people_detector/subscription"
+          <a href="/marinaKollmitz/lattice_planner/subscription"
             class="btn btn-sm btn-with-count select-menu-button js-menu-target"
             role="button"
             aria-haspopup="true"
@@ -311,13 +311,13 @@
             data-ga-click="Repository, click Watch settings, action:blob#show">
             <span class="js-select-button">
                 <svg aria-hidden="true" class="octicon octicon-eye" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M8.06 2C3 2 0 8 0 8s3 6 8.06 6C13 14 16 8 16 8s-3-6-7.94-6zM8 12c-2.2 0-4-1.78-4-4 0-2.2 1.8-4 4-4 2.22 0 4 1.8 4 4 0 2.22-1.78 4-4 4zm2-4c0 1.11-.89 2-2 2-1.11 0-2-.89-2-2 0-1.11.89-2 2-2 1.11 0 2 .89 2 2z"/></svg>
-                Unwatch
+                Watch
             </span>
           </a>
             <a class="social-count js-social-count"
-              href="/andresvasquezv/hospital_people_detector/watchers"
-              aria-label="1 user is watching this repository">
-              1
+              href="/marinaKollmitz/lattice_planner/watchers"
+              aria-label="2 users are watching this repository">
+              2
             </a>
 
         <div class="select-menu-modal-holder">
@@ -329,10 +329,10 @@
 
               <div class="select-menu-list js-navigation-container" role="menu">
 
-                <div class="select-menu-item js-navigation-item " role="menuitem" tabindex="0">
+                <div class="select-menu-item js-navigation-item selected" role="menuitem" tabindex="0">
                   <svg aria-hidden="true" class="octicon octicon-check select-menu-item-icon" height="16" version="1.1" viewBox="0 0 12 16" width="12"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5z"/></svg>
                   <div class="select-menu-item-text">
-                    <input id="do_included" name="do" type="radio" value="included" />
+                    <input checked="checked" id="do_included" name="do" type="radio" value="included" />
                     <span class="select-menu-item-heading">Not watching</span>
                     <span class="description">Be notified when participating or @mentioned.</span>
                     <span class="js-select-button-text hidden-select-button-text">
@@ -342,10 +342,10 @@
                   </div>
                 </div>
 
-                <div class="select-menu-item js-navigation-item selected" role="menuitem" tabindex="0">
+                <div class="select-menu-item js-navigation-item " role="menuitem" tabindex="0">
                   <svg aria-hidden="true" class="octicon octicon-check select-menu-item-icon" height="16" version="1.1" viewBox="0 0 12 16" width="12"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5z"/></svg>
                   <div class="select-menu-item-text">
-                    <input checked="checked" id="do_subscribed" name="do" type="radio" value="subscribed" />
+                    <input id="do_subscribed" name="do" type="radio" value="subscribed" />
                     <span class="select-menu-item-heading">Watching</span>
                     <span class="description">Be notified of all conversations.</span>
                     <span class="js-select-button-text hidden-select-button-text">
@@ -379,63 +379,63 @@
   <li>
     
   <div class="js-toggler-container js-social-container starring-container ">
-    <!-- '"` --><!-- </textarea></xmp> --></option></form><form accept-charset="UTF-8" action="/andresvasquezv/hospital_people_detector/unstar" class="starred js-social-form" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="TspRhhfdDTiTVOpE/IIDwros8O9xlQh7o8yfQYIj9IvwTbJPbrccGw2KD3qHTrc2XdTM5MFhk0cPY7n/jEQhpw==" /></div>
+    <!-- '"` --><!-- </textarea></xmp> --></option></form><form accept-charset="UTF-8" action="/marinaKollmitz/lattice_planner/unstar" class="starred js-social-form" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="X2N1bnbO7Vv3ES7J7lQHq/HVi1uOHU1qpLHQc0bdxvUTC7lBrxmxV8/bt5gN7u13bemxA0XBLkITaxbXnXXurQ==" /></div>
       <input type="hidden" name="context" value="repository"></input>
       <button
         type="submit"
         class="btn btn-sm btn-with-count js-toggler-target"
-        aria-label="Unstar this repository" title="Unstar andresvasquezv/hospital_people_detector"
+        aria-label="Unstar this repository" title="Unstar marinaKollmitz/lattice_planner"
         data-ga-click="Repository, click unstar button, action:blob#show; text:Unstar">
         <svg aria-hidden="true" class="octicon octicon-star" height="16" version="1.1" viewBox="0 0 14 16" width="14"><path fill-rule="evenodd" d="M14 6l-4.9-.64L7 1 4.9 5.36 0 6l3.6 3.26L2.67 14 7 11.67 11.33 14l-.93-4.74z"/></svg>
         Unstar
       </button>
-        <a class="social-count js-social-count" href="/andresvasquezv/hospital_people_detector/stargazers"
-           aria-label="0 users starred this repository">
-          0
+        <a class="social-count js-social-count" href="/marinaKollmitz/lattice_planner/stargazers"
+           aria-label="12 users starred this repository">
+          12
         </a>
 </form>
-    <!-- '"` --><!-- </textarea></xmp> --></option></form><form accept-charset="UTF-8" action="/andresvasquezv/hospital_people_detector/star" class="unstarred js-social-form" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="ni/85bYMJ+2mYKH6jCA+qvPkoLc6I2oMkWh+RfIuW0XJHp7BvnMptKTTfunNUv6yY0mHAZR9yGHMhQHJP31qjg==" /></div>
+    <!-- '"` --><!-- </textarea></xmp> --></option></form><form accept-charset="UTF-8" action="/marinaKollmitz/lattice_planner/star" class="unstarred js-social-form" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="9J5SlaQxlUWH36LxNfyDC0deErRsgRFxUn5qXsywX+Hn+M0ZtnQvF6V3VZcFGJ6C0RL3lju7vvGSBmSWkYKKmg==" /></div>
       <input type="hidden" name="context" value="repository"></input>
       <button
         type="submit"
         class="btn btn-sm btn-with-count js-toggler-target"
-        aria-label="Star this repository" title="Star andresvasquezv/hospital_people_detector"
+        aria-label="Star this repository" title="Star marinaKollmitz/lattice_planner"
         data-ga-click="Repository, click star button, action:blob#show; text:Star">
         <svg aria-hidden="true" class="octicon octicon-star" height="16" version="1.1" viewBox="0 0 14 16" width="14"><path fill-rule="evenodd" d="M14 6l-4.9-.64L7 1 4.9 5.36 0 6l3.6 3.26L2.67 14 7 11.67 11.33 14l-.93-4.74z"/></svg>
         Star
       </button>
-        <a class="social-count js-social-count" href="/andresvasquezv/hospital_people_detector/stargazers"
-           aria-label="0 users starred this repository">
-          0
+        <a class="social-count js-social-count" href="/marinaKollmitz/lattice_planner/stargazers"
+           aria-label="12 users starred this repository">
+          12
         </a>
 </form>  </div>
 
   </li>
 
   <li>
-          <!-- '"` --><!-- </textarea></xmp> --></option></form><form accept-charset="UTF-8" action="/andresvasquezv/hospital_people_detector/fork" class="btn-with-count" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="36vsA3rdzM/SiYaF4tpAS/Q+b/ynWsoTmrcPaU53ooWIN89jGQ7X73Yu7+5ZrXUqbtNUBJWDm/HzcM8JB1GIsA==" /></div>
+          <!-- '"` --><!-- </textarea></xmp> --></option></form><form accept-charset="UTF-8" action="/marinaKollmitz/lattice_planner/fork" class="btn-with-count" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="LgJAsQ6GRfawj0NpHLWY1/i5pn3bQHVyfzOIlUk6xR2vxSVmq1AZ2d7C7TljegAuMVp/5Jm9sNvxG2/ADwEdKw==" /></div>
             <button
                 type="submit"
                 class="btn btn-sm btn-with-count"
                 data-ga-click="Repository, show fork modal, action:blob#show; text:Fork"
-                title="Fork your own copy of andresvasquezv/hospital_people_detector to your account"
-                aria-label="Fork your own copy of andresvasquezv/hospital_people_detector to your account">
+                title="Fork your own copy of marinaKollmitz/lattice_planner to your account"
+                aria-label="Fork your own copy of marinaKollmitz/lattice_planner to your account">
               <svg aria-hidden="true" class="octicon octicon-repo-forked" height="16" version="1.1" viewBox="0 0 10 16" width="10"><path fill-rule="evenodd" d="M8 1a1.993 1.993 0 0 0-1 3.72V6L5 8 3 6V4.72A1.993 1.993 0 0 0 2 1a1.993 1.993 0 0 0-1 3.72V6.5l3 3v1.78A1.993 1.993 0 0 0 5 15a1.993 1.993 0 0 0 1-3.72V9.5l3-3V4.72A1.993 1.993 0 0 0 8 1zM2 4.2C1.34 4.2.8 3.65.8 3c0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2zm3 10c-.66 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2zm3-10c-.66 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2z"/></svg>
               Fork
             </button>
 </form>
-    <a href="/andresvasquezv/hospital_people_detector/network" class="social-count"
-       aria-label="0 users forked this repository">
-      0
+    <a href="/marinaKollmitz/lattice_planner/network" class="social-count"
+       aria-label="8 users forked this repository">
+      8
     </a>
   </li>
 </ul>
 
         <h1 class="public ">
   <svg aria-hidden="true" class="octicon octicon-repo" height="16" version="1.1" viewBox="0 0 12 16" width="12"><path fill-rule="evenodd" d="M4 9H3V8h1v1zm0-3H3v1h1V6zm0-2H3v1h1V4zm0-2H3v1h1V2zm8-1v12c0 .55-.45 1-1 1H6v2l-1.5-1.5L3 16v-2H1c-.55 0-1-.45-1-1V1c0-.55.45-1 1-1h10c.55 0 1 .45 1 1zm-1 10H1v2h2v-1h3v1h5v-2zm0-10H2v9h9V1z"/></svg>
-  <span class="author" itemprop="author"><a href="/andresvasquezv" class="url fn" rel="author">andresvasquezv</a></span><!--
+  <span class="author" itemprop="author"><a href="/marinaKollmitz" class="url fn" rel="author">marinaKollmitz</a></span><!--
 --><span class="path-divider">/</span><!--
---><strong itemprop="name"><a href="/andresvasquezv/hospital_people_detector" data-pjax="#js-repo-pjax-container">hospital_people_detector</a></strong>
+--><strong itemprop="name"><a href="/marinaKollmitz/lattice_planner" data-pjax="#js-repo-pjax-container">lattice_planner</a></strong>
 
 </h1>
 
@@ -448,14 +448,14 @@
      data-pjax="#js-repo-pjax-container">
 
   <span itemscope itemtype="http://schema.org/ListItem" itemprop="itemListElement">
-    <a href="/andresvasquezv/hospital_people_detector" class="js-selected-navigation-item selected reponav-item" data-hotkey="g c" data-selected-links="repo_source repo_downloads repo_commits repo_releases repo_tags repo_branches repo_packages /andresvasquezv/hospital_people_detector" itemprop="url">
+    <a href="/marinaKollmitz/lattice_planner" class="js-selected-navigation-item selected reponav-item" data-hotkey="g c" data-selected-links="repo_source repo_downloads repo_commits repo_releases repo_tags repo_branches repo_packages /marinaKollmitz/lattice_planner" itemprop="url">
       <svg aria-hidden="true" class="octicon octicon-code" height="16" version="1.1" viewBox="0 0 14 16" width="14"><path fill-rule="evenodd" d="M9.5 3L8 4.5 11.5 8 8 11.5 9.5 13 14 8 9.5 3zm-5 0L0 8l4.5 5L6 11.5 2.5 8 6 4.5 4.5 3z"/></svg>
       <span itemprop="name">Code</span>
       <meta itemprop="position" content="1">
 </a>  </span>
 
     <span itemscope itemtype="http://schema.org/ListItem" itemprop="itemListElement">
-      <a href="/andresvasquezv/hospital_people_detector/issues" class="js-selected-navigation-item reponav-item" data-hotkey="g i" data-selected-links="repo_issues repo_labels repo_milestones /andresvasquezv/hospital_people_detector/issues" itemprop="url">
+      <a href="/marinaKollmitz/lattice_planner/issues" class="js-selected-navigation-item reponav-item" data-hotkey="g i" data-selected-links="repo_issues repo_labels repo_milestones /marinaKollmitz/lattice_planner/issues" itemprop="url">
         <svg aria-hidden="true" class="octicon octicon-issue-opened" height="16" version="1.1" viewBox="0 0 14 16" width="14"><path fill-rule="evenodd" d="M7 2.3c3.14 0 5.7 2.56 5.7 5.7s-2.56 5.7-5.7 5.7A5.71 5.71 0 0 1 1.3 8c0-3.14 2.56-5.7 5.7-5.7zM7 1C3.14 1 0 4.14 0 8s3.14 7 7 7 7-3.14 7-7-3.14-7-7-7zm1 3H6v5h2V4zm0 6H6v2h2v-2z"/></svg>
         <span itemprop="name">Issues</span>
         <span class="Counter">0</span>
@@ -463,31 +463,28 @@
 </a>    </span>
 
   <span itemscope itemtype="http://schema.org/ListItem" itemprop="itemListElement">
-    <a href="/andresvasquezv/hospital_people_detector/pulls" class="js-selected-navigation-item reponav-item" data-hotkey="g p" data-selected-links="repo_pulls /andresvasquezv/hospital_people_detector/pulls" itemprop="url">
+    <a href="/marinaKollmitz/lattice_planner/pulls" class="js-selected-navigation-item reponav-item" data-hotkey="g p" data-selected-links="repo_pulls /marinaKollmitz/lattice_planner/pulls" itemprop="url">
       <svg aria-hidden="true" class="octicon octicon-git-pull-request" height="16" version="1.1" viewBox="0 0 12 16" width="12"><path fill-rule="evenodd" d="M11 11.28V5c-.03-.78-.34-1.47-.94-2.06C9.46 2.35 8.78 2.03 8 2H7V0L4 3l3 3V4h1c.27.02.48.11.69.31.21.2.3.42.31.69v6.28A1.993 1.993 0 0 0 10 15a1.993 1.993 0 0 0 1-3.72zm-1 2.92c-.66 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2zM4 3c0-1.11-.89-2-2-2a1.993 1.993 0 0 0-1 3.72v6.56A1.993 1.993 0 0 0 2 15a1.993 1.993 0 0 0 1-3.72V4.72c.59-.34 1-.98 1-1.72zm-.8 10c0 .66-.55 1.2-1.2 1.2-.65 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2zM2 4.2C1.34 4.2.8 3.65.8 3c0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2z"/></svg>
       <span itemprop="name">Pull requests</span>
       <span class="Counter">0</span>
       <meta itemprop="position" content="3">
 </a>  </span>
 
-    <a href="/andresvasquezv/hospital_people_detector/projects" class="js-selected-navigation-item reponav-item" data-hotkey="g b" data-selected-links="repo_projects new_repo_project repo_project /andresvasquezv/hospital_people_detector/projects">
+    <a href="/marinaKollmitz/lattice_planner/projects" class="js-selected-navigation-item reponav-item" data-hotkey="g b" data-selected-links="repo_projects new_repo_project repo_project /marinaKollmitz/lattice_planner/projects">
       <svg aria-hidden="true" class="octicon octicon-project" height="16" version="1.1" viewBox="0 0 15 16" width="15"><path fill-rule="evenodd" d="M10 12h3V2h-3v10zm-4-2h3V2H6v8zm-4 4h3V2H2v12zm-1 1h13V1H1v14zM14 0H1a1 1 0 0 0-1 1v14a1 1 0 0 0 1 1h13a1 1 0 0 0 1-1V1a1 1 0 0 0-1-1z"/></svg>
       Projects
       <span class="Counter" >0</span>
 </a>
-    <a href="/andresvasquezv/hospital_people_detector/wiki" class="js-selected-navigation-item reponav-item" data-hotkey="g w" data-selected-links="repo_wiki /andresvasquezv/hospital_people_detector/wiki">
+    <a href="/marinaKollmitz/lattice_planner/wiki" class="js-selected-navigation-item reponav-item" data-hotkey="g w" data-selected-links="repo_wiki /marinaKollmitz/lattice_planner/wiki">
       <svg aria-hidden="true" class="octicon octicon-book" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M3 5h4v1H3V5zm0 3h4V7H3v1zm0 2h4V9H3v1zm11-5h-4v1h4V5zm0 2h-4v1h4V7zm0 2h-4v1h4V9zm2-6v9c0 .55-.45 1-1 1H9.5l-1 1-1-1H2c-.55 0-1-.45-1-1V3c0-.55.45-1 1-1h5.5l1 1 1-1H15c.55 0 1 .45 1 1zm-8 .5L7.5 3H2v9h6V3.5zm7-.5H9.5l-.5.5V12h6V3z"/></svg>
       Wiki
 </a>
 
-  <a href="/andresvasquezv/hospital_people_detector/pulse" class="js-selected-navigation-item reponav-item" data-selected-links="repo_graphs repo_contributors dependency_graph pulse /andresvasquezv/hospital_people_detector/pulse">
+  <a href="/marinaKollmitz/lattice_planner/pulse" class="js-selected-navigation-item reponav-item" data-selected-links="repo_graphs repo_contributors dependency_graph pulse /marinaKollmitz/lattice_planner/pulse">
     <svg aria-hidden="true" class="octicon octicon-graph" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M16 14v1H0V0h1v14h15zM5 13H3V8h2v5zm4 0H7V3h2v10zm4 0h-2V6h2v7z"/></svg>
     Insights
 </a>
-    <a href="/andresvasquezv/hospital_people_detector/settings" class="js-selected-navigation-item reponav-item" data-selected-links="repo_settings repo_branch_settings hooks integration_installations /andresvasquezv/hospital_people_detector/settings">
-      <svg aria-hidden="true" class="octicon octicon-gear" height="16" version="1.1" viewBox="0 0 14 16" width="14"><path fill-rule="evenodd" d="M14 8.77v-1.6l-1.94-.64-.45-1.09.88-1.84-1.13-1.13-1.81.91-1.09-.45-.69-1.92h-1.6l-.63 1.94-1.11.45-1.84-.88-1.13 1.13.91 1.81-.45 1.09L0 7.23v1.59l1.94.64.45 1.09-.88 1.84 1.13 1.13 1.81-.91 1.09.45.69 1.92h1.59l.63-1.94 1.11-.45 1.84.88 1.13-1.13-.92-1.81.47-1.09L14 8.75v.02zM7 11c-1.66 0-3-1.34-3-3s1.34-3 3-3 3 1.34 3 3-1.34 3-3 3z"/></svg>
-      Settings
-</a>
+
 </nav>
 
 
@@ -497,9 +494,9 @@
   <div class="repository-content">
 
     
-  <a href="/andresvasquezv/hospital_people_detector/blob/6f9b3aa19e75311f9d991bc59915b337c5a37a9e/README.md" class="d-none js-permalink-shortcut" data-hotkey="y">Permalink</a>
+  <a href="/marinaKollmitz/lattice_planner/blob/3684036b0ba7d375b559280ee23a5ef33fc5c285/README.md" class="d-none js-permalink-shortcut" data-hotkey="y">Permalink</a>
 
-  <!-- blob contrib key: blob_contributors:v21:a33f2ca664347f4385181a8aa0f233a2 -->
+  <!-- blob contrib key: blob_contributors:v21:1e9570ccbc4e7681d214361d20e9765f -->
 
   <div class="file-navigation js-zeroclipboard-container">
     
@@ -521,12 +518,12 @@
 
       <div class="select-menu-filters">
         <div class="select-menu-text-filter">
-          <input type="text" aria-label="Find or create a branch…" id="context-commitish-filter-field" class="form-control js-filterable-field js-navigation-enable" placeholder="Find or create a branch…">
+          <input type="text" aria-label="Filter branches/tags" id="context-commitish-filter-field" class="form-control js-filterable-field js-navigation-enable" placeholder="Filter branches/tags">
         </div>
         <div class="select-menu-tabs">
           <ul>
             <li class="select-menu-tab">
-              <a href="#" data-tab-filter="branches" data-filter-placeholder="Find or create a branch…" class="js-select-menu-tab" role="tab">Branches</a>
+              <a href="#" data-tab-filter="branches" data-filter-placeholder="Filter branches/tags" class="js-select-menu-tab" role="tab">Branches</a>
             </li>
             <li class="select-menu-tab">
               <a href="#" data-tab-filter="tags" data-filter-placeholder="Find a tag…" class="js-select-menu-tab" role="tab">Tags</a>
@@ -541,7 +538,7 @@
 
 
             <a class="select-menu-item js-navigation-item js-navigation-open selected"
-               href="/andresvasquezv/hospital_people_detector/blob/master/README.md"
+               href="/marinaKollmitz/lattice_planner/blob/master/README.md"
                data-name="master"
                data-skip-pjax="true"
                rel="nofollow">
@@ -552,16 +549,7 @@
             </a>
         </div>
 
-          <!-- '"` --><!-- </textarea></xmp> --></option></form><form accept-charset="UTF-8" action="/andresvasquezv/hospital_people_detector/branches" class="js-create-branch select-menu-item select-menu-new-item-form js-navigation-item js-new-item-form" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="hgfJzFOIrkpzE18sWqotx00OJtO1kVBhmk/UqGXlak/JHiVsRq1pp1vBXondurYKLxE74GQh+iQYAknYVgHoHg==" /></div>
-          <svg aria-hidden="true" class="octicon octicon-git-branch select-menu-item-icon" height="16" version="1.1" viewBox="0 0 10 16" width="10"><path fill-rule="evenodd" d="M10 5c0-1.11-.89-2-2-2a1.993 1.993 0 0 0-1 3.72v.3c-.02.52-.23.98-.63 1.38-.4.4-.86.61-1.38.63-.83.02-1.48.16-2 .45V4.72a1.993 1.993 0 0 0-1-3.72C.88 1 0 1.89 0 3a2 2 0 0 0 1 1.72v6.56c-.59.35-1 .99-1 1.72 0 1.11.89 2 2 2 1.11 0 2-.89 2-2 0-.53-.2-1-.53-1.36.09-.06.48-.41.59-.47.25-.11.56-.17.94-.17 1.05-.05 1.95-.45 2.75-1.25S8.95 7.77 9 6.73h-.02C9.59 6.37 10 5.73 10 5zM2 1.8c.66 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2C1.35 4.2.8 3.65.8 3c0-.65.55-1.2 1.2-1.2zm0 12.41c-.66 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2zm6-8c-.66 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2z"/></svg>
-            <div class="select-menu-item-text">
-              <span class="select-menu-item-heading">Create branch: <span class="js-new-item-name"></span></span>
-              <span class="description">from ‘master’</span>
-            </div>
-            <input type="hidden" name="name" id="name" class="js-new-item-value">
-            <input type="hidden" name="branch" id="branch" value="master">
-            <input type="hidden" name="path" id="path" value="README.md">
-</form>
+          <div class="select-menu-no-results">Nothing to show</div>
       </div>
 
       <div class="select-menu-list select-menu-tab-bucket js-select-menu-tab-bucket" data-tab-filter="tags">
@@ -578,7 +566,7 @@
 </div>
 
     <div class="BtnGroup float-right">
-      <a href="/andresvasquezv/hospital_people_detector/find/master"
+      <a href="/marinaKollmitz/lattice_planner/find/master"
             class="js-pjax-capture-input btn btn-sm BtnGroup-item"
             data-pjax
             data-hotkey="t">
@@ -587,12 +575,12 @@
       <button aria-label="Copy file path to clipboard" class="js-zeroclipboard btn btn-sm BtnGroup-item tooltipped tooltipped-s" data-copied-hint="Copied!" type="button">Copy path</button>
     </div>
     <div class="breadcrumb js-zeroclipboard-target">
-      <span class="repo-root js-repo-root"><span class="js-path-segment"><a href="/andresvasquezv/hospital_people_detector"><span>hospital_people_detector</span></a></span></span><span class="separator">/</span><strong class="final-path">README.md</strong>
+      <span class="repo-root js-repo-root"><span class="js-path-segment"><a href="/marinaKollmitz/lattice_planner"><span>lattice_planner</span></a></span></span><span class="separator">/</span><strong class="final-path">README.md</strong>
     </div>
   </div>
 
 
-  <include-fragment class="commit-tease" src="/andresvasquezv/hospital_people_detector/contributors/master/README.md">
+  <include-fragment class="commit-tease" src="/marinaKollmitz/lattice_planner/contributors/master/README.md">
     <div>
       Fetching contributors&hellip;
     </div>
@@ -608,34 +596,73 @@
   <div class="file-actions">
 
     <div class="BtnGroup">
-      <a href="/andresvasquezv/hospital_people_detector/raw/master/README.md" class="btn btn-sm BtnGroup-item" id="raw-url">Raw</a>
-        <a href="/andresvasquezv/hospital_people_detector/blame/master/README.md" class="btn btn-sm js-update-url-with-hash BtnGroup-item" data-hotkey="b">Blame</a>
-      <a href="/andresvasquezv/hospital_people_detector/commits/master/README.md" class="btn btn-sm BtnGroup-item" rel="nofollow">History</a>
+      <a href="/marinaKollmitz/lattice_planner/raw/master/README.md" class="btn btn-sm BtnGroup-item" id="raw-url">Raw</a>
+        <a href="/marinaKollmitz/lattice_planner/blame/master/README.md" class="btn btn-sm js-update-url-with-hash BtnGroup-item" data-hotkey="b">Blame</a>
+      <a href="/marinaKollmitz/lattice_planner/commits/master/README.md" class="btn btn-sm BtnGroup-item" rel="nofollow">History</a>
     </div>
 
 
-        <!-- '"` --><!-- </textarea></xmp> --></option></form><form accept-charset="UTF-8" action="/andresvasquezv/hospital_people_detector/edit/master/README.md" class="inline-form js-update-url-with-hash" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="AIy4pIKVdj+HZqN9DRFe80POCDhzCNt+kx8ZAi8HoJsc1JQ0imiZB1h3MnqDnQ2iI2S7+27oiMlsRZeud5slXA==" /></div>
+        <!-- '"` --><!-- </textarea></xmp> --></option></form><form accept-charset="UTF-8" action="/marinaKollmitz/lattice_planner/edit/master/README.md" class="inline-form js-update-url-with-hash" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="XNGowwiFwd+w1Nbfv3exm9vF3VbaKo4MyUl0tf+5oxMTgKoizC7F7kErb2g/9sozeka3joHgq0SHovSeKKVaIw==" /></div>
           <button class="btn-octicon tooltipped tooltipped-nw" type="submit"
-            aria-label="Edit this file" data-hotkey="e" data-disable-with>
+            aria-label="Fork this project and edit the file" data-hotkey="e" data-disable-with>
             <svg aria-hidden="true" class="octicon octicon-pencil" height="16" version="1.1" viewBox="0 0 14 16" width="14"><path fill-rule="evenodd" d="M0 12v3h3l8-8-3-3-8 8zm3 2H1v-2h1v1h1v1zm10.3-9.3L12 6 9 3l1.3-1.3a.996.996 0 0 1 1.41 0l1.59 1.59c.39.39.39 1.02 0 1.41z"/></svg>
           </button>
-</form>        <!-- '"` --><!-- </textarea></xmp> --></option></form><form accept-charset="UTF-8" action="/andresvasquezv/hospital_people_detector/delete/master/README.md" class="inline-form" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="vDSTZ2c09LtavY43WLxcFDxT1QigjCcugG9hJthH5CGy/MuND4LTGQfzmx5PvojCI3Z11ZxYMqs3sPpt6arF5Q==" /></div>
+</form>        <!-- '"` --><!-- </textarea></xmp> --></option></form><form accept-charset="UTF-8" action="/marinaKollmitz/lattice_planner/delete/master/README.md" class="inline-form" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="Jh/m/I/sxxXs21OuBEr7uUJ5js2IZuvJxN/DWXYnfgWHRDm7bp3z8JrGQKJovvlDfnlajgqbvgTJDWeGQKfycw==" /></div>
           <button class="btn-octicon btn-octicon-danger tooltipped tooltipped-nw" type="submit"
-            aria-label="Delete this file" data-disable-with>
+            aria-label="Fork this project and delete the file" data-disable-with>
             <svg aria-hidden="true" class="octicon octicon-trashcan" height="16" version="1.1" viewBox="0 0 12 16" width="12"><path fill-rule="evenodd" d="M11 2H9c0-.55-.45-1-1-1H5c-.55 0-1 .45-1 1H2c-.55 0-1 .45-1 1v1c0 .55.45 1 1 1v9c0 .55.45 1 1 1h7c.55 0 1-.45 1-1V5c.55 0 1-.45 1-1V3c0-.55-.45-1-1-1zm-1 12H3V5h1v8h1V5h1v8h1V5h1v8h1V5h1v9zm1-10H2V3h9v1z"/></svg>
           </button>
 </form>  </div>
 
   <div class="file-info">
-      1 lines (1 sloc)
+      39 lines (32 sloc)
       <span class="file-info-divider"></span>
-    26 Bytes
+    2.69 KB
   </div>
 </div>
 
     
   <div id="readme" class="readme blob instapaper_body">
-    <article class="markdown-body entry-content" itemprop="text"><h1><a href="#hospital_people_detector" aria-hidden="true" class="anchor" id="user-content-hospital_people_detector"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>hospital_people_detector</h1>
+    <article class="markdown-body entry-content" itemprop="text"><h1><a href="#lattice_planner" aria-hidden="true" class="anchor" id="user-content-lattice_planner"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>lattice_planner</h1>
+<p>The lattice_planner package provides a move_base global planner plugin for a time-bounded A* lattice planner. The planner is designed to plan time dependent, dynamically feasible navigation paths for robots with differential drive constraints. It uses a dynamic cost map which is based on the ROS costmap representation from the costmap_2d package.</p>
+<p>the following ROS Parameters can be specified for the lattice_planner:</p>
+<p>prefix for all ROS params: move_base/TBLattice/</p>
+<p>cost factors:</p>
+<ul>
+<li>lethal_cost --&gt; cost associated with forbidden areas (e.g. obstacles)</li>
+<li>time_cost_factor --&gt; cost factor for path execution time</li>
+<li>step_cost_factor --&gt; cost factor for path length</li>
+<li>rotation_cost_factor --&gt; cost factor for the accumulated turns along a planned path</li>
+<li>environment_cost_factor --&gt; cost factor for constraints defined in the dynamic environment, according to the dynamic cost map</li>
+<li>dynamic_layers_plugin --&gt; fully qualified plugin type for dynamic layers to be used (must adhere to lattice_planner::DynamicLayers interface. See pluginlib doc on ROS wiki for help)</li>
+</ul>
+<p>planner preferences:</p>
+<ul>
+<li>allow_unknown --&gt; whether the planner is allowed to expand into unknown map regions</li>
+<li>xy_goal_tolerance --&gt; the Euclidean goal tolerance distance in meters</li>
+<li>yaw_goal_tolerance --&gt; the rotational goal tolerance in rad</li>
+<li>time_resolution --&gt; time resolution of the discretized configuration space in seconds</li>
+<li>collision_check_time_resolution --&gt; time increment to slice trajectories for collision checking in seconds</li>
+<li>time_steps_lookahead --&gt; maximum number of time steps for planning</li>
+<li>planning_timeout --&gt; timeout for the planning after which the best solution found so far is returned</li>
+<li>passive_navigation --&gt; flag for planning dynamically for the max number of time steps, not only until the goal is found</li>
+<li>publish_expanded --&gt; flag for publishing the expanded search tree for visualization</li>
+</ul>
+<p>flags for simplifying the path search - violate optimality but accelerate the search procedure:</p>
+<ul>
+<li>easy_deceleration --&gt; flag for simplified planning of deceleration at the goal</li>
+<li>easy_turn_at_start --&gt; flag for simplified planning of turn in place at the start</li>
+<li>easy_turn_at_goal --&gt; flag for simplified planning of turn in place at the goal</li>
+</ul>
+<p>motion constraints of the robot:</p>
+<ul>
+<li>min_vel_x --&gt; minimum forward velocity of the robot in meters per second (can be negative)</li>
+<li>max_vel_x --&gt; maximum forward velocity of the robot in meters per second</li>
+<li>acceleration_x --&gt; forward acceleration in meters per second^2</li>
+<li>min_vel_phi --&gt; minimum angular velocity of the robot in radians per second (can be negative)</li>
+<li>max_vel_phi --&gt; maximum angular velocity of the robot in radians per second</li>
+<li>acceleration_phi --&gt; angular acceleration in radians per second^2</li>
+</ul>
 </article>
   </div>
 
@@ -661,7 +688,7 @@
 <div class="footer container-lg px-3" role="contentinfo">
   <div class="position-relative d-flex flex-justify-between py-6 mt-6 f6 text-gray border-top border-gray-light ">
     <ul class="list-style-none d-flex flex-wrap ">
-      <li class="mr-3">&copy; 2017 <span title="0.15611s from unicorn-4075470780-n8k3q">GitHub</span>, Inc.</li>
+      <li class="mr-3">&copy; 2017 <span title="0.21452s from unicorn-1846592758-nglrd">GitHub</span>, Inc.</li>
         <li class="mr-3"><a href="https://github.com/site/terms" data-ga-click="Footer, go to terms, text:terms">Terms</a></li>
         <li class="mr-3"><a href="https://github.com/site/privacy" data-ga-click="Footer, go to privacy, text:privacy">Privacy</a></li>
         <li class="mr-3"><a href="https://github.com/security" data-ga-click="Footer, go to security, text:security">Security</a></li>
