@@ -392,10 +392,10 @@ std::vector<float > get_proposals(cv::Mat depthImage)
     }
 
 
-    std::cout << "coeff_a: " << coeff_a << std::endl;
-    std::cout << "coeff_b: " << coeff_b << std::endl;
-    std::cout << "coeff_c: " << coeff_c << std::endl;
-    std::cout << "coeff_d: " << coeff_d << std::endl;
+    //std::cout << "coeff_a: " << coeff_a << std::endl;
+    //std::cout << "coeff_b: " << coeff_b << std::endl;
+    //std::cout << "coeff_c: " << coeff_c << std::endl;
+    //std::cout << "coeff_d: " << coeff_d << std::endl;
 
   } //end compute plane from point cloud
 
