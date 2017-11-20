@@ -1,7 +1,7 @@
 <launch>
 
 <!-- load parameters for mobility aids detector -->
-<rosparam file="$(find hospital_people_detector)/config/mobaids_params.yaml" command="load" />
+<rosparam file="$(find hospital_people_detector)/config/hospital_params.yaml" command="load" />
 
 <arg name="arg_camera_height" default="1.0" />
 <param name="camera_height" value="$(arg arg_camera_height)" />
@@ -43,7 +43,7 @@
 <param name="fast_rcnn_directory" value="/home/andres/fast-rcnn" />
 
 <!-- Classifier files -->
-<param name="mobaids_prototxt" value="$(find hospital_people_detector)/trained_models/deploy_rgb.prototxt" />
+<param name="hospital_prototxt" value="$(find hospital_people_detector)/trained_models/deploy_rgb.prototxt" />
 <param name="DepthJet_caffemodel" value="$(find hospital_people_detector)/trained_models/DepthJet.caffemodel" />
 <param name="RGB_caffemodel" value="$(find hospital_people_detector)/trained_models/RGB.caffemodel" />
 

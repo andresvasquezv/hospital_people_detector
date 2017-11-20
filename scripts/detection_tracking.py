@@ -90,7 +90,7 @@ draw_bbox_tracks = rospy.get_param('draw_bbox_tracks')
 save_images = rospy.get_param('save_images')
 directory_for_images = rospy.get_param('directory_for_images')
 
-mobaids_prototxt = rospy.get_param('mobaids_prototxt')
+hospital_prototxt = rospy.get_param('hospital_prototxt')
 DepthJet_caffemodel = rospy.get_param('DepthJet_caffemodel')
 RGB_caffemodel = rospy.get_param('RGB_caffemodel')
 
@@ -436,7 +436,7 @@ def callback(data):
 
 
 def listener():
-    rospy.init_node('detector_mobaids', anonymous=False)
+    rospy.init_node('detector_hospital', anonymous=False)
     global listener_tf
     listener_tf = tf.TransformListener()
     rospy.Subscriber("topic_proposals", Proposals_msg, callback, queue_size=1) #None not working , buff_size=2**24)
@@ -445,18 +445,18 @@ def listener():
 
 
 if __name__ == '__main__':
-    rospy.loginfo("Mobaids detector node started")
+    rospy.loginfo("Hospital detector node started")
     #caffe.set_mode_cpu()
     caffe.set_mode_gpu()
     caffe.set_device(ID_GPU)
 
 
     if classifier_type == 'DepthJet':
-        net = caffe.Net(mobaids_prototxt, DepthJet_caffemodel, caffe.TEST)
+        net = caffe.Net(hospital_prototxt, DepthJet_caffemodel, caffe.TEST)
     if classifier_type == 'RGB':
-        net = caffe.Net(mobaids_prototxt, RGB_caffemodel, caffe.TEST)
+        net = caffe.Net(hospital_prototxt, RGB_caffemodel, caffe.TEST)
 
-    mobaids_image_pub = rospy.Publisher('topic_mobaids_image', Image, queue_size=1)
+    mobaids_image_pub = rospy.Publisher('topic_hospital_image', Image, queue_size=1)
     pub_detections = rospy.Publisher('Hospital_detections', Detections, queue_size=1)
     pub_tracks = rospy.Publisher('Hospital_tracks', Tracks, queue_size=1)
 
