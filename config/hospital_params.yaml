@@ -4,9 +4,6 @@ ID_GPU: 0
 #Ground plane can be computed from TF or from point cloud
 ground_plane_source: pcl #'pcl' or 'tf'
 
-#Classifier uses RGB or DepthJet images
-classifier_type: DepthJet #'RGB' or 'DepthJet'
-
 #Minimum score to accept a detection as valid
 min_score: 0.9 
 
@@ -16,7 +13,7 @@ min_track_age: 2
 
 #Dont creat new track if distance between this new 
 # track and any other track is less than min_saparation
-min_separation: 0.0  
+min_separation: 0.5  
 
 #Tracks will be removed if the uncertainty of the position is greater than "uncertainty_tolerance"
 uncertainty_tolerance: 3.0 

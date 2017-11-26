@@ -110,61 +110,7 @@ rot_mat = []
 old_stamp = 0
 
 
-def callback(data):
-                
-    bridge = CvBridge()
-    try:
-        if classifier_type == 'DepthJet':
-            cv_image = bridge.imgmsg_to_cv2(data.img_jet, "passthrough")
-
-        if classifier_type == 'RGB':
-            cv_image = bridge.imgmsg_to_cv2(data.img_rgb, "passthrough")
-
-    except CvBridgeError as e:
-        print(e)
-        return
-
-    im_h , im_w , im_layers =  cv_image.shape
-
-    intrinsic = [data.cx, data.cy, data.fx, data.fy]
-    plane_coeff =[data.coeff_a, data.coeff_b, data.coeff_c, data.coeff_d]
-
-    candidates = np.asarray(get_candidates(data.boxes), dtype=np.float)
-
-    detections = np.empty([0, 0])
-
-    if candidates.shape[0] != 0:
-
-        # Detection using Fast R-CNN 
-        scores, boxes_res = im_detect(net, cv_image, candidates)
-    
-        # Detections:  each row -> [x1 y1 x2 y2 score depth class]
-        detections = preprocess_detections(scores, boxes_res, data.boxes)
-
-
-    #Publish detections
-    msg_single_det = Single_detection()
-    det_list_msg= []
-
-    for i in range(detections.shape[0]):
-        d_x, d_y, d_z, d_class, d_score, d_h, d_w = read_detection(detections[i, :], plane_coeff, intrinsic)
-
-        msg_single_det.bounding_box = Bbox(detections[i, 0], detections[i, 1], detections[i, 2], detections[i, 3])
-        msg_single_det.coordinates = Point(d_x, d_y, d_z)
-        msg_single_det.class_id = d_class
-        msg_single_det.class_label = class_labels[int(d_class)]
-        msg_single_det.score = d_score
-
-        det_list_msg.append(msg_single_det)
-
-    msg_detections = Detections()
-    msg_detections.header = data.img_jet.header
-    msg_detections.header.frame_id = camera_frame
-    msg_detections.detections = det_list_msg
-
-    pub_detections.publish(msg_detections)
-
-
+def callback(data):       
 
     global trans_od_base
     global trans_mat
@@ -177,37 +123,41 @@ def callback(data):
         rot_mat = np.asmatrix( tf.transformations.quaternion_matrix(rot) )
         trans_od_base = trans_mat*rot_mat
 
-    except (tf.LookupException, tf.ConnectivityException, tf.ExtrapolationException):
-        rospy.loginfo("- Detection and tracking - no transformation found, tracking not possible")
-
-        #Draw bboxes in and publish image in case no TF is available
-        #Draw bboxes (proposals)
-        if draw_bbox_proposals:
-            cv_image = draw_proposals(cv_image, data.boxes)
-
-        #Draw bboxes (dtections)
-        if draw_bbox_detections: 
-            cv_image = draw_detection(cv_image, detections)
-
-        #Save Image
-        if save_images == True:
-
-            f_temp = str(data.img_jet.header.stamp) 
-            file_name = 'seq_' + f_temp[:-9] + '.' + f_temp[10:]
-            image_name = directory_for_images + file_name + ".png"
-
-            if not os.path.exists(directory_for_images):
-                os.makedirs(directory_for_images)
-
-            cv2.imwrite(image_name,cv_image)
-
-        #Publish Image
-        try:
-            mobaids_image_pub.publish( bridge.cv2_to_imgmsg(cv_image, encoding="passthrough") )
-        except CvBridgeError as e:
-            print(e)
-
+    except (tf.LookupException, tf.ConnectivityException, tf.ExtrapolationException) as e:
+        rospy.loginfo("- Detection and tracking - no transformation found")
+        print(e)
         return
+
+
+    bridge = CvBridge()
+    try:
+        if classifier_type == 'DepthJet':
+            cv_image = bridge.imgmsg_to_cv2(data.img_jet, "passthrough")
+
+        if classifier_type == 'RGB':
+            cv_image = bridge.imgmsg_to_cv2(data.img_rgb, "passthrough")
+
+    except CvBridgeError as e:
+        print(e)
+        return
+
+
+    im_h , im_w , im_layers =  cv_image.shape
+
+    intrinsic = [data.cx, data.cy, data.fx, data.fy]
+    plane_coeff =[data.coeff_a, data.coeff_b, data.coeff_c, data.coeff_d]
+
+    candidates = np.asarray(get_candidates(data.boxes), dtype=np.float)
+
+    detections = np.empty([0, 0])
+
+    if candidates.shape[0] != 0:
+
+        # Classification using Fast R-CNN 
+        scores, boxes_res = im_detect(net, cv_image, candidates)
+    
+        # Detections:  each row -> [x1 y1 x2 y2 score depth class]
+        detections = preprocess_detections(scores, boxes_res, data.boxes)
 
         
     global tracks_list
@@ -365,6 +315,29 @@ def callback(data):
         mobaids_image_pub.publish( bridge.cv2_to_imgmsg(cv_image, encoding="passthrough") )
     except CvBridgeError as e:
         print(e)
+
+
+    #Publish detections msg
+    msg_single_det = Single_detection()
+    det_list_msg= []
+
+    for i in range(detections.shape[0]):
+        d_x, d_y, d_z, d_class, d_score, d_h, d_w = read_detection(detections[i, :], plane_coeff, intrinsic)
+
+        msg_single_det.bounding_box = Bbox(detections[i, 0], detections[i, 1], detections[i, 2], detections[i, 3])
+        msg_single_det.coordinates = Point(d_x, d_y, d_z)
+        msg_single_det.class_id = d_class
+        msg_single_det.class_label = class_labels[int(d_class)]
+        msg_single_det.score = d_score
+
+        det_list_msg.append(msg_single_det)
+
+    msg_detections = Detections()
+    msg_detections.header = data.img_jet.header
+    msg_detections.header.frame_id = camera_frame
+    msg_detections.detections = det_list_msg
+
+    pub_detections.publish(msg_detections)
 
 
     #Publish tracks msg

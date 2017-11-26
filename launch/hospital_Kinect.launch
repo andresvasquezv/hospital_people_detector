@@ -1,9 +1,16 @@
 <launch>
 
+<param name="use_sim_time" value="true" />
+
+<param name="Xtion_camera" value="false" />
+
+<!-- Select classifier "RGB" or "DepthJet" -->
+<param name="classifier_type" value="DepthJet" />
+
 <!-- load parameters for mobility aids detector -->
 <rosparam file="$(find hospital_people_detector)/config/hospital_params.yaml" command="load" />
 
-<arg name="arg_camera_height" default="1.0" />
+<arg name="arg_camera_height" default="1.1" />
 <param name="camera_height" value="$(arg arg_camera_height)" />
 
 <param name="save_images" value="false"/>
@@ -15,28 +22,9 @@
 <param name="camera_info_topic" value="/kinect2/qhd/camera_info" />
 
 <!-- Frames -->
-<arg name="fixed_frame" default="/odom" />
-<arg name="camera_frame" default="/kinect2_depth_optical_frame" />
-<arg name="base_frame" default="/base_link" />
-
-<param name="fixed_frame" value="$(arg fixed_frame)" />
-<param name="camera_frame" value="$(arg camera_frame)" />
-<param name="base_frame" value="$(arg base_frame)" />
-
-
-<!-- In case of lack of TF you can simulate it -->
-<arg name="simulate_tf" default="false" />
-
-<group if="$(arg simulate_tf)">
-    <arg name="args_fixed" default="0 0 0 0 0 0 $(arg fixed_frame) $(arg base_frame) 100"/>
-    <arg name="args_base" default="0.2 0.0 $(arg arg_camera_height) 0.0 0.1 0.0 $(arg base_frame) /camera_link 100"/>
-    <arg name="args_optical" default="0 -0.020 0.0 -0.5 0.5 -0.5 0.5  /camera_link $(arg camera_frame) 100"/>
-
-    <node pkg="tf" type="static_transform_publisher" name="simulate_base_fixed_tf" args="$(arg args_fixed)" />
-    <node pkg="tf" type="static_transform_publisher" name="simulate_camera_base_tf" args="$(arg args_base)" />
-    <node pkg="tf" type="static_transform_publisher" name="simulate_camera_optical_tf" args="$(arg args_optical)" />
-</group>
-
+<param name="fixed_frame" value="/odom" />
+<param name="camera_frame" value="/kinect2_rgb_optical_frame" />
+<param name="base_frame" value="/base_link" />
 
 <!-- Fast R-CNN directories -->
 <param name="caffe_directory" value="/home/andres/fast-rcnn/caffe-fast-rcnn" />
@@ -46,6 +34,11 @@
 <param name="hospital_prototxt" value="$(find hospital_people_detector)/trained_models/deploy_rgb.prototxt" />
 <param name="DepthJet_caffemodel" value="$(find hospital_people_detector)/trained_models/DepthJet.caffemodel" />
 <param name="RGB_caffemodel" value="$(find hospital_people_detector)/trained_models/RGB.caffemodel" />
+
+<!-- Simulate tf -->
+<node pkg="tf" type="static_transform_publisher" name="tf_link_00" args="0 0 0 0 0 0 /odom /base_link 33" />
+<node pkg="tf" type="static_transform_publisher" name="tf_link_01" args="0.2 0 1.1 0 0.1 0 /base_link /kinect2_link 33" />
+<node pkg="tf" type="static_transform_publisher" name="tf_link_02" args="0 -0.020 0.0 -0.5 0.5 -0.5 0.5  /kinect2_link /kinect2_rgb_optical_frame 33" />
 
 <!-- Run nodes -->
 <node pkg="hospital_people_detector" type="proposals_generation" name="proposals_generation" output="screen"/>
