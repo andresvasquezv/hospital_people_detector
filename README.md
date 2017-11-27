@@ -10,26 +10,37 @@ Fast R-CNN (see: [Fast R-CNN installation instructions](https://github.com/rbgir
 
 ## Running the test
 
-(I have to upload the Bag files)
-
-For Kinect camera, run this package by typing
-
+First download the test bagfile wich contains a sequence collected with a Kinect V2 and Xtion from here:
 ```
-roslaunch hospital_people_detector hospital_Kinect.launch
+sdfsdfsdfs
 ```
 
-For Xtion:
+To run the test for Kinect camera:
 
 ```
-roslaunch hospital_people_detector hospital_Xtion.launch
+roslaunch hospital_people_detector hospital_Kinect_test.launch
 ```
 
-
-
-## Running with your own data
-
-In case of lack of "TF" you can simulate it by typing
+To run the test for Xtion:
 
 ```
-roslaunch hospital_people_detector hospital_Xtion.launch simulate_tf:=true
+roslaunch hospital_people_detector hospital_Xtion_test.launch
 ```
+
+You can choose to use the RGB or DepthJet detector by modifying the parameter in the launch file:
+
+```
+<param name="classifier_type" value="RGB" />
+```
+or
+
+```
+<param name="classifier_type" value="DepthJet" />
+```
+
+IMPORTANT: Before you run the test you have to change the paths of Caffe and Fast R-CNN in the launch file:
+```
+<param name="caffe_directory" value="/home/my_user/fast-rcnn/caffe-fast-rcnn" />
+<param name="fast_rcnn_directory" value="/home/my_user/fast-rcnn" />
+```
+
