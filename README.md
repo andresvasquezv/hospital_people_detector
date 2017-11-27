@@ -44,3 +44,8 @@ IMPORTANT: Before you run the test you have to change the paths of Caffe and Fas
 <param name="fast_rcnn_directory" value="/home/my_user/fast-rcnn" />
 ```
 
+Play the bagfile by typing:
+```
+rosbag play Downloads/test_hospital.bag --clock
+```
+
