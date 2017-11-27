@@ -12,7 +12,7 @@ Fast R-CNN (see: [Fast R-CNN installation instructions](https://github.com/rbgir
 
 First download the test bagfile wich contains a sequence collected with a Kinect V2 and Xtion from here:
 ```
-sdfsdfsdfs
+wget https://drive.google.com/open?id=1mNeRLmOISqTkXUaf4OdVDLOUaAtb_5On
 ```
 
 To run the test for Kinect camera:
