@@ -38,7 +38,7 @@ or
 <param name="classifier_type" value="DepthJet" />
 ```
 
-IMPORTANT: Before you run the test you have to change the paths of Caffe and Fast R-CNN in the launch file:
+IMPORTANT: Before you run the test you have to change the paths to Caffe and Fast R-CNN directories in the launch file:
 ```
 <param name="caffe_directory" value="/home/my_user/fast-rcnn/caffe-fast-rcnn" />
 <param name="fast_rcnn_directory" value="/home/my_user/fast-rcnn" />
