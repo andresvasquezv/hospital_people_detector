@@ -46,8 +46,6 @@ import caffe
 from fast_rcnn.test import im_detect
 
 from hospital_people_detector.msg import Proposals_msg
-from hospital_people_detector.msg import Coordinates_msg
-
 from hospital_people_detector.msg import Bbox
 from hospital_people_detector.msg import Single_detection
 from hospital_people_detector.msg import Detections
