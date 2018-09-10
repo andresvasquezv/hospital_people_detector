@@ -151,6 +151,9 @@ def callback(data):
 
     if candidates.shape[0] != 0:
 
+	#call directly before im_detect, as mentioned in issue #2
+	caffe.set_mode_gpu()
+
         # Classification using Fast R-CNN 
         scores, boxes_res = im_detect(net, cv_image, candidates)
     
