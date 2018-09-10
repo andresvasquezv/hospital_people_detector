@@ -5,7 +5,7 @@ This ROS package provides a pipeline to detect and classify people in hospital e
 
 ### Prerequisites
 
-fast-rcnn-mobility-aids (see [installation instructions](https://github.com/marinaKollmitz/fast-rcnn-mobility-aids/blob/master/README.md)
+fast-rcnn-mobility-aids (see [installation instructions](https://github.com/marinaKollmitz/fast-rcnn-mobility-aids/blob/master/README.md))
 
 ## Running the test
 
