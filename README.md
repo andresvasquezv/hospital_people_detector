@@ -11,7 +11,7 @@ fast-rcnn-mobility-aids (see [installation instructions](https://github.com/mari
 
 First download the test bagfile wich contains a sequence collected with a Kinect V2 and Xtion from here:
 ```
-wget https://drive.google.com/open?id=1mNeRLmOISqTkXUaf4OdVDLOUaAtb_5On
+wget https://drive.google.com/open?id=1ZurmkYi_M9wO4FzFETe_SJjNKhZF1AA2
 ```
 
 To run the test for Kinect camera:
